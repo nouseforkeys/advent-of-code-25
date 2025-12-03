@@ -5,6 +5,7 @@ description = "Add your description here"
 requires-python = ">=3.12"
 dependencies = [
     "advent-of-code-utils",
+    "tqdm>=4.67.1",
 ]
 
 [tool.uv.sources]

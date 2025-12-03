@@ -8,10 +8,14 @@ version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
     { name = "advent-of-code-utils" },
+    { name = "tqdm" },
 ]
 
 [package.metadata]
-requires-dist = [{ name = "advent-of-code-utils", editable = "advent-of-code-utils" }]
+requires-dist = [
+    { name = "advent-of-code-utils", editable = "advent-of-code-utils" },
+    { name = "tqdm", specifier = ">=4.67.1" },
+]
 
 [[package]]
 name = "advent-of-code-utils"
