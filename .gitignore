@@ -1,2 +1,5 @@
 # input files
 *.txt
+
+# temp files
+*.gif
